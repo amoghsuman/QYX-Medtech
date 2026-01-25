@@ -17,7 +17,9 @@ import {
   Plus,
   // Fix: Add missing Target and BarChart3 icons
   Target,
-  BarChart3
+  BarChart3,
+  // Fix: Alias PieChart icon to avoid collision with Recharts PieChart component
+  PieChart as PieChartIcon
 } from 'lucide-react';
 import { 
   COMPANY_NAME, 
@@ -418,7 +420,7 @@ const App: React.FC = () => {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="order-2 lg:order-1 h-[450px]">
               <h4 className="font-bold text-blue-900 mb-6 flex items-center gap-2">
-                <PieChart size={20} className="text-orange-500" /> Revenue Allocation Breakdown
+                <PieChartIcon size={20} className="text-orange-500" /> Revenue Allocation Breakdown
               </h4>
               <ResponsiveContainer width="100%" height="90%">
                 <PieChart>
