@@ -1,1 +1,6 @@
-// No longer required.
+export default {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+}
