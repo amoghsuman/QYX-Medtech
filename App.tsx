@@ -138,7 +138,7 @@ const App: React.FC = () => {
           <div className="grid lg:grid-cols-3 gap-16">
             <div className="lg:col-span-2">
               <h2 className="text-sm font-bold text-orange-500 uppercase tracking-widest mb-3">Introduction</h2>
-              <h3 className="text-3xl md:text-4xl font-extrabold text-blue-900 mb-6">Innovative Diagnostics for a Global Epidemic</h3>
+              <h3 className="text-3xl md:text-4xl font-extrabold text-blue-900 mb-6">Innovative Diagnostics for a Global Need</h3>
               <p className="text-slate-600 text-lg leading-relaxed mb-8">
                 QYX MedTech is focused on revolutionizing male fertility diagnostics. We are developing a home-based fertility screening kit that offers instant digital reports and doctor consultation support. Our solution addresses the barriers of social stigma, logic errors, and limited access to traditional diagnostic services.
               </p>
